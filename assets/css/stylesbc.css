@@ -118,6 +118,7 @@ html{
 .post{
   width: calc(33% - 10px);
   overflow: hidden;
+  padding-top: 15px;
 }
 
 .post-img{
@@ -685,5 +686,14 @@ footer{
 @media (min-width: 768px) {
   .box-shadow-full {
     padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .blog-posts{
+    justify-content: center;
+  }
+  .post{
+    width: min(600px, 100%);
   }
 }
